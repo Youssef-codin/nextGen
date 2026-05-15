@@ -48,7 +48,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   const logout = async () => {
-    await SecureStore.deleteItemAsync(TOKEN_KEY)
+    if (state.token) {
+      await SecureStore.deleteItemAsync(TOKEN_KEY)
+    }
     setState({ token: null, user: null, isLoading: false })
   }
 

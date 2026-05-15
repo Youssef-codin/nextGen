@@ -2,6 +2,7 @@ import { Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { AuthProvider, useAuth } from '@/src/context/AuthContext'
+import { PortalHost } from '@rn-primitives/portal'
 import { View, ActivityIndicator } from 'react-native'
 import 'react-native-reanimated'
 import '../global.css'
@@ -29,6 +30,7 @@ function RootLayout() {
         )}
       </Stack>
       <StatusBar style="auto" />
+      <PortalHost />
     </>
   )
 }

@@ -20,7 +20,7 @@ export default function LoginScreen() {
         <Text className="text-white font-semibold text-base">Sign In</Text>
       </TouchableOpacity>
       <TouchableOpacity className="mt-4" onPress={() => router.replace('/(auth)/register')}>
-        <Text className="text-blue-600 text-sm">Don't have an account? Sign Up</Text>
+        <Text className="text-blue-600 text-sm">Don&apos;t have an account? Sign Up</Text>
       </TouchableOpacity>
     </View>
   )

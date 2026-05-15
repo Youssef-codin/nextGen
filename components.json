@@ -1,12 +1,19 @@
 {
-  "$schema": "https://reactnativereusables.com/schema.json",
-  "style": "default",
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tsx": true,
   "tailwind": {
     "config": "tailwind.config.js",
-    "css": "global.css"
+    "css": "global.css",
+    "baseColor": "neutral",
+    "cssVariables": true
   },
   "aliases": {
-    "components": "@/src/components/ui",
-    "lib": "@/src/lib"
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
   }
 }
