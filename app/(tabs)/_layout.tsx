@@ -1,9 +1,22 @@
 import { Tabs } from 'expo-router'
-import { Home, TrendingUp, Activity, Beaker, Trophy } from 'lucide-react-native'
+import { Home, TrendingUp, Activity, Beaker, MoreHorizontal } from 'lucide-react-native'
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarStyle: {
+          backgroundColor: '#0B0F17',
+          borderTopColor: '#1E293B',
+          borderTopWidth: 1,
+        },
+        tabBarActiveTintColor: '#6C5CE7',
+        tabBarInactiveTintColor: '#8892A4',
+        tabBarLabelStyle: { fontSize: 10 },
+        tabBarItemStyle: { flex: 1 },
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
@@ -35,8 +48,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="leaderboard"
         options={{
-          title: 'Leaderboard',
-          tabBarIcon: ({ color, size }) => <Trophy color={color} size={size} />,
+          title: 'More',
+          tabBarIcon: ({ color, size }) => <MoreHorizontal color={color} size={size} />,
         }}
       />
     </Tabs>

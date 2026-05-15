@@ -6,6 +6,7 @@
       "name": "nextgen",
       "dependencies": {
         "@expo-google-fonts/inter": "^0.4.2",
+        "@expo-google-fonts/poppins": "^0.4.1",
         "@expo-google-fonts/space-mono": "^0.4.2",
         "@expo/vector-icons": "^15.0.3",
         "@react-navigation/bottom-tabs": "^7.4.0",
@@ -285,6 +286,8 @@
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.4.1", "", { "dependencies": { "@eslint/core": "^0.17.0", "levn": "^0.4.1" } }, "sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA=="],
 
     "@expo-google-fonts/inter": ["@expo-google-fonts/inter@0.4.2", "", {}, "sha512-syfiImMaDmq7cFi0of+waE2M4uSCyd16zgyWxdPOY7fN2VBmSLKEzkfbZgeOjJq61kSqPBNNtXjggiQiSD6gMQ=="],
+
+    "@expo-google-fonts/poppins": ["@expo-google-fonts/poppins@0.4.1", "", {}, "sha512-LiX5oEryJqDt3UmWwr4oqf11hGMz/JEffkkNcZ3UtGwyoMFzXmBmTwcrAWrEttxypxmLNmPykDg+CY2VjKve9A=="],
 
     "@expo-google-fonts/space-mono": ["@expo-google-fonts/space-mono@0.4.2", "", {}, "sha512-soYY/qcKcnY7xjIhuMAVzJYxSdJ3Z8TjrtFHOB5SK7/4MEMGpoaw+CAVyvXnA3fsO7J7waIW+/5Z0Y0i/CfSeg=="],
 
